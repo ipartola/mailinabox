@@ -1,3 +1,4 @@
+#!/bin/sh
 # Webmail: Using roundcube
 ##########################
 

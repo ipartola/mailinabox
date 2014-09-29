@@ -1,0 +1,19 @@
+Source: mailinabox
+Section: mail
+Priority: extra
+Maintainer: Igor Partola <igor@igorpartola.com>
+Build-Depends: debhelper (>= 8.0.0), python3
+Standards-Version: 3.9.5
+Homepage: https://mailinabox.email/
+Vcs-Git: git://github.com/mail-in-a-box/mailinabox.git
+Vcs-Browser: https://github.com/mail-in-a-box/mailinabox
+X-Python3-Version: >= 3.4
+
+Package: mailinabox
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, bind9, bind9-host, ca-certificates, curl, curl, dbconfig-common, dialog, dovecot-antispam, dovecot-core, dovecot-imapd, dovecot-lmtpd, dovecot-managesieved, dovecot-sieve, dovecot-sqlite, duplicity, fail2ban, git, haveged, ldnsutils, libapr1, libawl-php, libcurl4-openssl-dev, libjs-jquery, libjs-jquery-mousewheel, libmagic1, libtool, libyaml-dev, links, memcached, netcat-openbsd, nginx, nsd, ntp, opendkim, opendkim-tools, openssh-client, openssl, php-apc, php-auth, php-crypt-gpg, php-mail-mime, php-net-sieve, php-net-smtp, php-net-socket, php-pear, php-soap, php-xml-parser, php5, php5, php5-cli, php5-common, php5-curl, php5-dev, php5-fpm, php5-fpm, php5-gd, php5-gd, php5-gd, php5-imap, php5-imap, php5-intl, php5-json, php5-mcrypt, php5-memcache, php5-pspell, php5-sqlite, php5-sqlite, php5-xsl, postfix, postfix-pcre, postgrey, python3, python3-dateutil, python3-dnspython, python3-flask, python3-pip, pyzor, razor, resolvconf, sed (>=4.2.1), spampd, sqlite3, tinymce, unattended-upgrades, unzip, wget
+Description: Take back control of your email with this easy-to-deploy mail server in a box.
+ Mail-in-a-Box turns a fresh cloud computer into a working mail server.
+ You get contact synchronization, spam filtering, and so on. On your phone,
+ you can use apps like K-9 Mail and CardDAV-Sync free beta to sync your email
+ and contacts between your phone and your box.
